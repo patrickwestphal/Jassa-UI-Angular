@@ -1,3 +1,8 @@
+/**
+ * styleable version of the Jassa map directive
+ */
+
+
 //TODO Move to some better place
 Jassa.setOlMapCenter = function(map, config) {
     var zoom = config.zoom;
