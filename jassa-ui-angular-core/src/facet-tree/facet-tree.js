@@ -124,6 +124,7 @@ angular.module('ui.jassa.facet-tree', ['ui.jassa.template-list'])
   
         $scope.toggleTableLink = function(path) {
             //$scope.emit('facete:toggleTableLink');
+        // FIXME: tableMod not defined
         tableMod.togglePath(path);
       
         //$scope.$emit('')
